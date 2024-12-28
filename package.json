@@ -1,24 +1,36 @@
 {
-  "name": "nextjs-store",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.18"
-  },
-  "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.18"
-  }
+	"name": "nextjs-store",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"analyze": "ANALYZE=true next build"
+	},
+	"dependencies": {
+		"@next/bundle-analyzer": "^15.0.4",
+		"ai": "^4.0.13",
+		"classnames": "^2.5.1",
+		"graphql": "^16.9.0",
+		"graphql-request": "^7.1.2",
+		"next": "14.2.18",
+		"openai": "^4.76.0",
+		"react": "^18",
+		"react-dom": "^18",
+		"react-icons": "^5.4.0",
+		"sanitize-html": "^2.13.1",
+		"zustand": "^5.0.2"
+	},
+	"devDependencies": {
+		"@types/node": "^20",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"@types/sanitize-html": "^2.13.0",
+		"eslint": "^8",
+		"eslint-config-next": "14.2.18",
+		"sass": "^1.81.0",
+		"typescript": "^5"
+	}
 }
